@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3 - Tailwind</title>
+    <link rel="stylesheet" href="./css/tailwind.css">
+</head>
+<body class="font-inter">
+    <nav >
+        <div>
+            <img src="images/logo.svg" class="ml-10 md:float-left md:ml-36 mt-16  ">
+        </div>
+        <ul class="hidden  md:float-right md:mr-44 md:flex mt-20 space-x-12 text-DarkGrayishBlue ">
+            <li class="hover:text-SoftRed"><a href="#">Home</a></li>
+            <li class="hover:text-SoftRed"><a href="#">New</a></li>
+            <li class="hover:text-SoftRed"><a href="#">Popular</a></li>
+            <li class="hover:text-SoftRed"><a href="#">Trending</a></li>
+            <li class="hover:text-SoftRed"><a href="#">Categories</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container flex flex-col md:flex-row"> 
+            <section class="mt-12">
+                <img src="images/image-web-3-desktop.jpg" class="ml-10 pr-8 md:pr-0 md:ml-36 w-96 h-64 md:h-2/5 md:w-4/5">
+               
+                <div class="ml-10 w-full md:float-left md:w-1/4 md:ml-36 mt-10 text-text4xl font-extrabold text-VeryDarkBlue leading-none">
+                    <h1>The Bright Future Of Web 3.0?</h1>
+                </div>
+                <div class="w-full ml-10 md:float-right md:w-2/6 mr-20 text-DarkGrayishBlue mt-9 text-fontSize">
+                    <p>We dive into the next evolution of the web that claims to put the power of the platforms back
+                        into the hands of the people.But is it really fulfilling its promise?
+                    </p>
+                    <button class="border-2 bg-SoftRed border-SoftRed hover:bg-VeryDarkBlue hover:border-VeryDarkBlue text-OffWhite  font-bold pl-5 pr-5 pt-2 pb-2 mt-8 tracking-letterSpace ">READ MORE</button>
+                </div>
+                
+            </section>
+
+            <section class=" ml-10 mr-0 mt-9 md:mt-12 md:mr-40">
+                <ul class=" bg-VeryDarkBlue h-fit w-80">
+                    <h2 class="text-SoftOrange font-bold text-text3xl pl-6 pt-5">New</h2>
+                   <div class="border-b-2 border-DarkGrayishBlue pb-9">
+                    <li class="text-OffWhite hover:text-SoftOrange font-bold text-textLg pl-6 pt-5"><a href="#">Hydrogen VS Electric Cars</a></li>
+                    <p class="text-DarkGrayishBlue pl-6 pt-2">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                   </div>
+
+                   <div class="border-b-2 border-DarkGrayishBlue pb-9 ">
+                    <li class="text-OffWhite hover:text-SoftOrange font-bold text-textLg pl-6 pt-5"><a href="#">The Downsides Of AI Artistry</a></li>
+                    <p class="text-DarkGrayishBlue pl-6 pt-2">What are the possible adverse effects of on-demand AI image generation?</p>
+                   </div>
+
+                   <div>
+                    <li class="text-OffWhite hover:text-SoftOrange font-bold text-textLg pl-6 pt-5"><a href="#">Is VC Funding Drying Up?</a></li>
+                    <p class="text-DarkGrayishBlue pl-6 pt-2 pb-7 pr-2">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                   </div>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container flex flex-col md:flex-row mb-24 ">
+            <section class="">
+                <div class="ml-10 mr-5 float-left w-28 md:ml-32 mt-16 ">
+                    <img src="images/image-retro-pcs.jpg">
+                </div>
+                <div class="ml-44 mt-14 md:float-right w-52 md:ml-5 md:mt-12">
+                    <span class="font-bold text-GrayishBlue text-text4xl">01</span>
+                   <h3><a href="#" class="font-bold text-VeryDarkBlue hover:text-SoftRed text-textLg mt-3">Reviving Retro PCs</a></h3> 
+                    <p class="text-DarkGrayishBlue text-fontSize mt-2">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </section>
+            <section>
+                <div class="ml-10 mr-5 float-left w-28 md:ml-28  mt-16">
+                    <img src="images/image-top-laptops.jpg">
+                </div>
+                <div class="ml-48 mt-14 md:float-right w-52 md:ml-5 md:mt-12">
+                    <span class="font-bold text-GrayishBlue text-text4xl">02</span>
+                   <h3><a href="#" class="font-bold text-VeryDarkBlue hover:text-SoftRed text-textLg mt-3">Top 10 Laptops of 2022</a></h3> 
+                    <p class="text-DarkGrayishBlue text-fontSize mt-2">Our best picks for various needs and budgets.</p>
+                </div>
+            </section>
+            <section>
+                <div class="ml-10 mr-5 float-left w-28 md:ml-28  mt-16">
+                    <img src="images/image-gaming-growth.jpg" class="w-36">
+                </div>
+
+                <div class="ml-48 mt-14 md:float-right w-52 md:ml-5 md:mt-12">
+                    <span  class="font-bold text-GrayishBlue text-text4xl" >03</span>
+                   <h3><a href="#" class="font-bold text-VeryDarkBlue hover:text-SoftRed text-textLg mt-3">The Growth Of Gaming</a></h3> 
+                    <p class="text-DarkGrayishBlue text-fontSize mt-2">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
